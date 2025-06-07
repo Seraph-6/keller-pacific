@@ -8,14 +8,16 @@ export default function Home() {
     <main className="min-h-screen bg-white">
       <section className="relative h-screen flex flex-col justify-center items-center text-center bg-gradient-to-br from-gray-100 to-white">
         <div className="absolute top-0 left-0 w-full h-full -z-10">
-          <Image
-            src="/hero-construction.jpg"
-            alt="Keller Pacific Construction"
-            layout="fill"
-            objectFit="cover"
-            quality={90}
-            className="opacity-30"
-          />
+          <<Image
+  src="/hero-construction.jpg"
+  alt="Keller Pacific Construction"
+  fill
+  quality={90}
+  className="opacity-30 object-cover"
+  priority
+/>
+
+          >
         </div>
         <h1 className="text-5xl font-bold text-gray-900 mb-4 drop-shadow-lg">
           Building the Future of Northern California
