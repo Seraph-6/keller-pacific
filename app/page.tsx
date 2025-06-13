@@ -57,4 +57,32 @@ export default function Home() {
       </section>
 
       {/* Card Section */}
-      <section className="p-8 grid grid
+      <section className="p-8 grid grid-cols-1 md:grid-cols-3 gap-6 bg-gray-50">
+        <Card className="shadow-sm">
+          <CardContent className="p-6">
+            <h3 className="text-xl font-semibold mb-2">Residential Construction</h3>
+            <p className="text-gray-600">
+              Custom homes, remodels, and ADUs crafted with precision and care.
+            </p>
+          </CardContent>
+        </Card>
+        <Card className="shadow-sm">
+          <CardContent className="p-6">
+            <h3 className="text-xl font-semibold mb-2">Commercial Projects</h3>
+            <p className="text-gray-600">
+              From tenant improvements to ground-up developments.
+            </p>
+          </CardContent>
+        </Card>
+        <Card className="shadow-sm">
+          <CardContent className="p-6">
+            <h3 className="text-xl font-semibold mb-2">Earthworks & Infrastructure</h3>
+            <p className="text-gray-600">
+              Site preparation, grading, trenching, and underground utilities.
+            </p>
+          </CardContent>
+        </Card>
+      </section>
+    </main>
+  );
+}
